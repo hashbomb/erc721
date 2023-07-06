@@ -287,13 +287,13 @@ export default function Home() {
 
   return (
     <div className="min-h-screen w-screen">
-      <ConnectWallet className="!absolute !right-4 !top-4" theme={theme} />
+      {/* <ConnectWallet className="!absolute !right-4 !top-4" theme={theme} /> */}
       <div className="grid h-screen grid-cols-1 lg:grid-cols-12">
         <div className="hidden h-full w-full items-center justify-center lg:col-span-5 lg:flex lg:px-12">
-          {/* <HeadingImage
+          <HeadingImage
             src={contractMetadata.data?.image || firstNft?.metadata.image}
             isLoading={isLoading}
-          /> */}
+          />
         </div>
         <div className="col-span-1 flex h-full w-full items-center justify-center lg:col-span-7">
           <div className="flex w-full max-w-xl flex-col gap-4 rounded-xl p-12 lg:border lg:border-gray-400 lg:dark:border-gray-800">
