@@ -297,7 +297,7 @@ export default function Home() {
         </div>
         <div className="col-span-1 flex h-full w-full items-center justify-center lg:col-span-7">
           <div className="flex w-full max-w-xl flex-col gap-4 rounded-xl p-12 lg:border lg:border-gray-400 lg:dark:border-gray-800">
-            //Hide Collection preview image
+            
             {/* <div className="mt-8 flex w-full xs:mb-8 xs:mt-0 lg:hidden">
               <HeadingImage
                 src={contractMetadata.data?.image || firstNft?.metadata.image}
