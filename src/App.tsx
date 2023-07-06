@@ -16,7 +16,7 @@ import {
 import { BigNumber, utils } from "ethers";
 import { useMemo, useState } from "react";
 import { HeadingImage } from "./components/HeadingImage";
-import { PoweredBy } from "./components/PoweredBy";
+// import { PoweredBy } from "./components/PoweredBy";
 import { useToast } from "./components/ui/use-toast";
 import { parseIneligibility } from "./utils/parseIneligibility";
 import {
