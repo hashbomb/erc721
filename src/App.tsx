@@ -1,5 +1,5 @@
 import {
-  // ConnectWallet,
+  ConnectWallet,
   detectContractFeature,
   useActiveClaimConditionForWallet,
   useAddress,
